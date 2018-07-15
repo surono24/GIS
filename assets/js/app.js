@@ -59,22 +59,22 @@ function clearHighlight() {
 var basemap1 = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
    maxZoom: 20,
    subdomains:['mt0','mt1','mt2','mt3'],
-   attribution: 'Google Streets | <a href="https://drive.google.com/file/d/119jqa8pkykB7sbDc7h4yM0Y-AIUsTVmU/view?usp=sharing" target="_blank">Surono</a>' 
+   attribution: 'Google Streets | <a href="https://drive.google.com/file/d/1MREcqvD-a_pSkyP5kFX7TaLVazrtZjIS/view?usp=sharing" target="_blank">Surono</a>' 
 }); 
 var basemap2 = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
    maxZoom: 20,
    subdomains:['mt0','mt1','mt2','mt3'],
-   attribution: 'Google Satellite | <a href="https://drive.google.com/file/d/119jqa8pkykB7sbDc7h4yM0Y-AIUsTVmU/view?usp=sharing" target="_blank">Surono</a>'
+   attribution: 'Google Satellite | <a href="https://drive.google.com/file/d/1MREcqvD-a_pSkyP5kFX7TaLVazrtZjIS/view?usp=sharing" target="_blank">Surono</a>'
 });
 var basemap3 = L.tileLayer('http://a.tile.stamen.com/terrain/{z}/{x}/{y}.png', {
    maxZoom: 20,
    subdomains:['mt0','mt1','mt2','mt3'],
-   attribution: 'Stamen Terrain | <a href="https://drive.google.com/file/d/119jqa8pkykB7sbDc7h4yM0Y-AIUsTVmU/view?usp=sharing" target="_blank">Surono</a>'
+   attribution: 'Stamen Terrain | <a href="https://drive.google.com/file/d/1MREcqvD-a_pSkyP5kFX7TaLVazrtZjIS/view?usp=sharing" target="_blank">Surono</a>'
 });
 var basemap4 = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
    maxZoom: 20,
    subdomains:['mt0','mt1','mt2','mt3'],
-   attribution: 'Google Terrain | <a href="https://drive.google.com/file/d/119jqa8pkykB7sbDc7h4yM0Y-AIUsTVmU/view?usp=sharing" target="_blank">Surono</a>'
+   attribution: 'Google Terrain | <a href="https://drive.google.com/file/d/1MREcqvD-a_pSkyP5kFX7TaLVazrtZjIS/view?usp=sharing" target="_blank">Surono</a>'
 });
 
 /* Overlay Layers Highlight */
